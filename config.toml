@@ -8,6 +8,7 @@ canonifyURLS = true
 googleAnalytics = ""
 disqusShortname = "xdbsoft"
 disableKinds = ["taxonomy", "taxonomyTerm"] # This theme does not currently use "tag" and "category" taxonomies
+publishDir = "docs"
 
 [Params]
     tagline = "software development"
