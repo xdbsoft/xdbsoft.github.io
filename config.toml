@@ -1,5 +1,5 @@
 title = "xdb - software development"
-baseURL = "https://www.xdbsoft.com"
+baseURL = "http://www.xdbsoft.com"
 tags = ["portfolio", "web design", "blog"]
 languageCode = "en-US"
 config = "config.toml"
