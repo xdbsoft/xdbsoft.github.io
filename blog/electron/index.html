@@ -6,11 +6,11 @@
         <title>
             
             
-                Let&#39;s start | xdb - software development
+                First impressions on Electron | xdb - software development
             
         </title>
 
-        <meta name="title" content="Let&#39;s start | xdb - software development">
+        <meta name="title" content="First impressions on Electron | xdb - software development">
 
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="chrome=1">
@@ -28,7 +28,7 @@
         <meta name="twitter:site" content="@simonhege">
         <meta name="twitter:creator" content="@simonhege">
         
-        <meta property="og:title" content="Let&#39;s start | xdb - software development">
+        <meta property="og:title" content="First impressions on Electron | xdb - software development">
         <meta property="og:type" content="website">
         <meta property="og:url" content="http://www.xdbsoft.com">
         <meta property="og:image" content="http://www.xdbsoft.com/images/icon-x-128.png">
@@ -55,7 +55,7 @@
         <meta name="theme-color" content="#FFF">
         
 
-        <link rel="canonical" href="http://www.xdbsoft.com/blog/start/">
+        <link rel="canonical" href="http://www.xdbsoft.com/blog/electron/">
         
         <link rel="stylesheet" href="http://www.xdbsoft.com/styles/main.css" type="text/css">
         
@@ -101,29 +101,78 @@
 
     <section class="container">
         <section class="content">
-            <h1> Let&#39;s start </h1>
+            <h1> First impressions on Electron </h1>
 
             <div class="sub-header">
-                August 2017 · 1 minute read
+                August 2017 · 2 minute read
             </div>
 
             <div class="entry-content">
-                <p>One day it has to start&hellip; This is today!</p>
+                
 
-<p>On this blog, I plan to share my thoughts on technical topics, such as Go, C++ and other nice technologies.
-I may also focus sometimes on soft skills, or simply share links I found during my journey on Internet.</p>
+<h1 id="first-impressions-on-electron">First impressions on <code>electron</code></h1>
 
-<blockquote>
-<p>Computer programming is an art, because it applies accumulated knowledge to the world, because it requires skill and ingenuity, and especially because it produces objects of beauty. A programmer who subconsciously views himself as an artist will enjoy what he does and will do it better.
-&ndash;<cite>Donald E. Knuth</cite></p>
-</blockquote>
+<p>Today I wanted to find an easy way to edit markdown documents, especially on the context of this blog. I thought it could be a nice way to hands on two (not so recent) technologies:</p>
+
+<ul>
+<li><a href="https://electron.atom.io/">Electron</a></li>
+<li><a href="https://vuejs.org/">Vue.js</a></li>
+</ul>
+
+<p>I was an early adopter of Atom, then switched to Visual Studio Code. That is how I discovered Electron: it is the framework behind these tools (but also HipChat, Slack clients, &hellip;). It allows to create cross platform desktop apps using web technologies.</p>
+
+<h2 id="first-steps">First steps</h2>
+
+<p>The official website of Electron (<a href="https://electron.atom.io/">https://electron.atom.io/</a>) contains all the required tutorials to get started with it. Only required dependancies are <code>npm</code> and <code>git</code>.</p>
+
+<pre><code class="language-bash"># Clone the quick start repository
+git clone https://github.com/electron/electron-quick-start
+# Go into the repository
+cd electron-quick-start
+# Install dependencies
+npm install
+# Run the app
+npm start
+</code></pre>
+
+<p>This provide a basic &ldquo;hello world!&rdquo; application, with default menus, and standard events management (start, close, &hellip;).</p>
+
+<h2 id="electron-starter-kits-and-electron-forge">Electron starter kits and Electron Forge</h2>
+
+<h3 id="bootstraping">Bootstraping</h3>
+
+<p>An other way to bootstrap an application is by using a starter kit. Multiple, sometimes outdated starter kits may be found. The one you choose will probably be defined by the underlying javascript framework that you plan to use (React, Angular, &hellip;).</p>
+
+<p>There is one officially supported tool that allow such choice, it is <a href="https://electronforge.io/">Electron Forge</a>. Usage is as simple as a single call to this npm based tool. Multiple <a href="https://electronforge.io/templates">templates</a> are available in order to pre-install one of the modern popular javascript framework. As explained above, I choosed Vue.js.</p>
+
+<pre><code class="language-bash">npm install -g electron-forge
+electron-forge init my-new-project --template=vue
+</code></pre>
+
+<h3 id="development-cycle">Development cycle</h3>
+
+<p>The electron forge allow short development cycle. Any change in local files (html, js, vue, &hellip;) is automatically loaded in the started application.</p>
+
+<pre><code class="language-bash">cd my-new-project
+electron-forge start
+</code></pre>
+
+<p>Within the application, Chrome dev tools are here. Console, DOM inspector, js debuger, &hellip; It became as easy as developing a web app to develop a desktop one.</p>
+
+<h2 id="key-takeaways">Key takeaways</h2>
+
+<ul>
+<li>Use  <a href="https://electronforge.io/">Electron Forge</a> to bootstrap your application</li>
+<li>Integration with Chrome dev tools is great</li>
+<li>Develop a web UI but with all modern JS/CSS allowed (only one browser engine will have to render it)</li>
+</ul>
 
             </div>
 
             <div class="pagination">
                 
+                    <a href="http://www.xdbsoft.com/blog/start/">&laquo; Let&#39;s start</a>
                 
-                    <a href="http://www.xdbsoft.com/blog/electron/">First impressions on Electron &raquo;</a>
                 
             </div>
         </section>

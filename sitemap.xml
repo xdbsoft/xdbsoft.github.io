@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://www.xdbsoft.com/blog/electron/</loc>
+    <lastmod>2017-08-05T16:40:04+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.xdbsoft.com/blog/start/</loc>
     <lastmod>2017-08-03T22:40:36+02:00</lastmod>
   </url>
@@ -14,13 +19,13 @@
   
   <url>
     <loc>http://www.xdbsoft.com/blog/</loc>
-    <lastmod>2017-08-03T22:40:36+02:00</lastmod>
+    <lastmod>2017-08-05T16:40:04+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.xdbsoft.com/</loc>
-    <lastmod>2017-08-03T22:40:36+02:00</lastmod>
+    <lastmod>2017-08-05T16:40:04+02:00</lastmod>
     <priority>0</priority>
   </url>
   
