@@ -6,8 +6,7 @@
     <description>Recent content in Blogs on xdb - software development</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <copyright>true</copyright>
-    <lastBuildDate>Sat, 05 Aug 2017 16:40:04 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 05 Aug 2017 14:40:04 +0000</lastBuildDate>
     
 	<atom:link href="http://www.xdbsoft.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,11 +14,11 @@
     <item>
       <title>First impressions on Electron</title>
       <link>http://www.xdbsoft.com/blog/electron/</link>
-      <pubDate>Sat, 05 Aug 2017 16:40:04 +0200</pubDate>
+      <pubDate>Sat, 05 Aug 2017 14:40:04 +0000</pubDate>
       
       <guid>http://www.xdbsoft.com/blog/electron/</guid>
       <description>First impressions on electron Today I wanted to find an easy way to edit markdown documents, especially on the context of this blog. I thought it could be a nice way to hands on two (not so recent) technologies:
- Electron Vue.js  I was an early adopter of Atom, then switched to Visual Studio Code. That is how I discovered Electron: it is the framework behind these tools (but also HipChat, Slack clients, &amp;hellip;).</description>
+ Electron Vue.js  I was an early adopter of Atom, then switched to Visual Studio Code. This is how I discovered Electron: it is the framework behind these tools (but also HipChat, Slack clients, &amp;hellip;).</description>
     </item>
     
     <item>
