@@ -12,8 +12,7 @@ I started coding at 12, automating creation of calendar thanks to Excel macros i
 I then discovered the web and javascript (at a time when neither Google nor jQuery existed).
 I studied aeronautics and computer science at ENAC (French Civil Aviation University).
 
-Thanks to side projects or regular job, I learned fantastic technologies, such as SQLite, PostgreSQL, C++, Go, ReactJS, ...
-I used them in various contexts, such as aeronautical data management, cartography, accounting, data vizualisation.
+Thanks to side projects or regular job, I learned fantastic technologies, such as SQLite, PostgreSQL, C++, Go, ReactJS, ... I used them in various contexts, such as aeronautical data management, cartography, accounting, data visualization.
 
 I was brought to contribute to projects such as:
 
