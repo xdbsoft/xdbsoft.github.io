@@ -16,7 +16,7 @@ Thanks to side projects or regular job, I learned fantastic technologies, such a
 
 I was brought to contribute to projects such as:
 
-* [GDAL/OGR](http://www.gdal.org/) a C++ library allowing to interact with geographical vector datasources
+* [GDAL/OGR](http://www.gdal.org/) a C++ library allowing to interact with geographical vector data sources
 * [Path4Flight](http://www.path4flight.com/) especially on the IA based trajectory generator web app for Helicopter Emergency Medical Services
 * [dex](https://github.com/coreos/dex/) a federated OpenID Connect provider
 
